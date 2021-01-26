@@ -77,6 +77,7 @@ Release Notes.
 * Add node information from the Openensus proto to the labels of the samples, to support the identification of the source of the Metric data.
 * Fix bug that the same sample name in one MAL expression caused `IllegalArgumentException` in `Analyzer.analyse`.
 * Add the text analyzer for querying log in the es storage.
+* Add a new concept "Event" and its implementations to collect events.
 
 #### UI
 * Fix un-removed tags in trace query.
@@ -98,7 +99,7 @@ Release Notes.
 * Add icon for http type.
 * Fix rk-footer utc without local storage.
 * Sort group names in the topology.
-* Add logo for Dolphinscheduler.
+* Add logo for DolphinScheduler.
 * Fix dashboard wrong instance.
 * Add a legend for the topology.
 * Update the condition of unhealthy cube.
@@ -107,6 +108,8 @@ Release Notes.
 * Add envoy proxy component logo.
 * Chore: set up license-eye to check license headers and add missing license headers.
 * Fix prop for instances-survey and endpoints-survey.
+* Feat: Implement service logs in UI.
+* Fix Envoy icon and Flask icon.
 
 #### Documentation
 * Update the documents of backend fetcher and self observability about the latest configurations.
